@@ -1,14 +1,32 @@
-# 03 JavaScript: Password Generator
+# Random Password Generator
 
-This application 
+Quickly generate a strong password using this application using selected user criteria. No more head scratching, trying to compose a password strong enough to provide security for your data. This application outputs a strong password with just a few clicks. Live application can be found [here](https://rad-a.github.io/password_generator/).
 
 ## User Story
-
 ```
 AS AN employee with access to sensitive data
 I WANT to randomly generate a password that meets certain criteria
 SO THAT I can create a strong password that provides greater security
 ```
+
+## Getting Started
+
+To get started, click the "Generate Password" button and follow the on-screen prompts. There are four prompts that ask for your desired password length and the types of characters you would like included. 
+
+The "Copy Password" button copies the new password to clipboard and the "Reset" button clears the the form. 
+
+## Built With
+
+- HTML
+- CSS
+- JavaScript
+
+## Authors
+
+* **Rachael Adu** 
+    - *Full JavaScript*
+    - *Partial HTML*
+    - *Partial CSS*
 
 ## Acceptance Criteria
 
@@ -30,19 +48,8 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
 
-The following image demonstrates the application functionality:
+## Application UI
 
-![password generator demo](./Assets/03-javascript-homework-demo.png)
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+![Image of Password Generator application](./Assets/img/RPG.jpg)
 
 
