@@ -1,6 +1,6 @@
 # Random Password Generator
 
-Quickly generate a strong password using this application using selected user criteria. No more head scratching, trying to compose a password strong enough to provide security for your data. This application outputs a strong password with just a few clicks. The live application can be found <a href="https://rad-a.github.io/password_generator" target="_blank">here</a>.
+Quickly generate a strong password using this application using selected user criteria. No more head scratching, trying to compose a password strong enough to provide security for your data. This application outputs a strong password with just a few clicks. The live application can be found [here](https://rad-a.github.io/password_generator/).
 
 ## User Story
 ```
