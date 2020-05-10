@@ -1,6 +1,6 @@
 # Random Password Generator
 
-Quickly generate a strong password using this application using selected user criteria. No more head scratching, trying to compose a password strong enough to provide security for your data. This application outputs a strong password with just a few clicks. Live application can be found [here](https://rad-a.github.io/password_generator/).
+Quickly generate a strong password using this application using selected user criteria. No more head scratching, trying to compose a password strong enough to provide security for your data. This application outputs a strong password with just a few clicks. The live application can be found <a href="https://rad-a.github.io/password_generator" target="_blank">here</a>.
 
 ## User Story
 ```
@@ -11,9 +11,9 @@ SO THAT I can create a strong password that provides greater security
 
 ## Getting Started
 
-To get started, click the "Generate Password" button and follow the on-screen prompts. There are four prompts that ask for your desired password length and the types of characters you would like included. 
+To get started, click the "**Generate Password**" button and follow the on-screen prompts. There are four prompts that ask for your desired password length and the types of characters you would like included. 
 
-The "Copy Password" button copies the new password to clipboard and the "Reset" button clears the the form. 
+The "**Copy Password**" button copies the new password to clipboard and the "**Reset**" button clears the the form. 
 
 ## Built With
 
@@ -51,5 +51,3 @@ THEN the password is either displayed in an alert or written to the page
 ## Application UI
 
 ![Image of Password Generator application](./Assets/img/RPG.jpg)
-
-
