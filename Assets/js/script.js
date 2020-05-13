@@ -20,6 +20,7 @@ var generatedPw = document.querySelector("#password");
 
 //Password option variables
 var specialCharacters = "!@#$%&*+?^";
+var numbers = "1234567890";
 var uppercase = "abcdefghijklmnopqrstuvwxyz".toUpperCase();
 var lowercase = "abcdefghijklmnopqrstuvwxyz";
 var length = "";
@@ -47,7 +48,8 @@ function generatePassword() {
   //Prompt options for password character types
   let confirmUpper = confirm("Would you like to include uppercase characters?");
   let confirmLower = confirm("What about lowercase characters?");
-  let confirmSpecialChar = confirm("And special characters?");
+  let confirmNum = confirm("And numeric characters?")
+  let confirmSpecialChar = confirm("Lastly, want to include special characters?");
 
   //Store chosen password types
   if (confirmUpper) {
@@ -62,6 +64,13 @@ function generatePassword() {
     console.log("Lowercase: Yes");
   } else {
     console.log("Lowercase: No");
+  }
+
+  if (confirmNum) {
+    chosenCharacterTypes.push(numbers);
+    console.log("Numbers: Yes");
+  } else {
+    console.log("Numbers: No");
   }
 
   if (confirmSpecialChar) {
@@ -95,7 +104,7 @@ function generatePassword() {
 
     function wrongCriteriaEntered() {
       document.getElementById("password").innerHTML =
-        "Oops...looks like you did not select any character type. Please try again ans choose at least one.";
+        "Oops...looks like you did not select any character type. Please try again and choose at least one.";
         return wrongCriteriaEntered();
     }
   }
